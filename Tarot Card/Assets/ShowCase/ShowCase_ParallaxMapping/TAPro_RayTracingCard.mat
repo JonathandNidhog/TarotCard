@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TAPro_RayTracingCard
+  m_Shader: {fileID: 4800000, guid: a5790978fde9bb74e87adb6dab8807b4, type: 3}
+  m_ShaderKeywords: _ENABLECOLORFULBACKGROUND_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundMap:
+        m_Texture: {fileID: 2800000, guid: 77e5e0799522816469ef207fb0a2efab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Frame:
+        m_Texture: {fileID: 2800000, guid: 9f967657c7fb7eb41b2f30c28a33dff6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _P2NoiseMap:
+        m_Texture: {fileID: 2800000, guid: f5d53660f8636b8479a246877682930a, type: 3}
+        m_Scale: {x: 1.71, y: 2.04}
+        m_Offset: {x: 0, y: 0}
+    - _P3NoiseMap:
+        m_Texture: {fileID: 2800000, guid: c6bbabc84107372428006cdfad9d73d8, type: 3}
+        m_Scale: {x: 176.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _P4NoiseMap:
+        m_Texture: {fileID: 2800000, guid: c6bbabc84107372428006cdfad9d73d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 1210ace8c9da46f459c20a862ff7aac7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap2:
+        m_Texture: {fileID: 2800000, guid: dc5ffd6cf22019541b7b7a69a5e27179, type: 3}
+        m_Scale: {x: 0.95, y: 0.95}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap3:
+        m_Texture: {fileID: 2800000, guid: 791c0c2b0bf8eda4fa8304797ee887d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap4:
+        m_Texture: {fileID: 2800000, guid: 03555ecdc865ffb4caac3551b242860e, type: 3}
+        m_Scale: {x: 0.9, y: 0.89}
+        m_Offset: {x: 0.06, y: 0}
+    - _ParallaxMap5:
+        m_Texture: {fileID: 2800000, guid: fdc3c488face0634989c3552c00fc21b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainbowMap:
+        m_Texture: {fileID: 2800000, guid: 550fd74577ad0f543af84c7003623ec7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StartRainbowColor:
+        m_Texture: {fileID: 2800000, guid: 550fd74577ad0f543af84c7003623ec7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Depth: -0.07
+    - _Depth2: -0.11
+    - _Depth3: 0.02
+    - _Depth4: -0.19
+    - _Depth5: -0.03
+    - _EnableColorfulBackground: 1
+    - _HSVNoise: 10.4
+    - _HSVSaturation: -0.1
+    - _HSVValue: 4.8
+    - _StarMin: 4.23
+    m_Colors:
+    - _BackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+    - _FrameTint: {r: 1.0544245, g: 1.1953903, b: 1.1905197, a: 1}
+    - _HSVPow: {r: 59.8, g: 22.4, b: 0, a: 0}
+    - _P2NoiseMapVec: {r: 2.84, g: 1.58, b: 1, a: 0.7}
+    - _P2NoiseTint: {r: 1, g: 1, b: 1, a: 1}
+    - _P3NoiseMapVec: {r: 13.5, g: 1, b: 1, a: 30.8}
+    - _P3NoiseTint: {r: 1, g: 1, b: 1, a: 1}
+    - _P4NoiseMapVec: {r: 10.04, g: 1, b: 1, a: 41.85}
+    - _P4NoiseTint: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMap2Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMap3Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMap4Tint: {r: 0.22073027, g: 0.22073027, b: 0.22073027, a: 0.07058824}
+    - _ParallaxMap5Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMapTine: {r: 1, g: 1, b: 1, a: 1}
+    - _ParallaxMapTint: {r: 1, g: 1, b: 1, a: 1}
+    - _RainbowMapTint: {r: 0.1706962, g: 0.1706962, b: 0.1706962, a: 1}
+  m_BuildTextureStacks: []
